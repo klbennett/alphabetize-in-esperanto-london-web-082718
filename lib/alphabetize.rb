@@ -5,7 +5,7 @@ def alphabetize(arr)
  a = esperanto.split("")
  #binding.pry
  arr.sort_by do |word|
-    word.split('').collect do |letter|
+    word.split("").collect do |letter|
        binding.pry
       a.index(letter)
     end
