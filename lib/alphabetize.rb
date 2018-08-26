@@ -1,3 +1,10 @@
+require "pry"
+
 def alphabetize(arr)
-  # code here
+  esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+ a = esperanto.split("")
+ #binding.pry
+arr.sort_by { |a| arr}
+
+arr
 end
