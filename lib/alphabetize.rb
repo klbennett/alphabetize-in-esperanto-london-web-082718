@@ -6,6 +6,7 @@ def alphabetize(arr)
  #binding.pry
  arr.sort_by do |word|
     word.split('').collect do |letter|
+       binding.pry
       a.index(letter)
     end
   end
